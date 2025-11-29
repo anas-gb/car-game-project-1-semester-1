@@ -6,7 +6,7 @@ Designed and coded by **Anas, Wali, Zeeshan, and Rauf**.
 ---
 
 ## 🎮 **Features**
-*MAIN** logic ** Used only <iostream> 
+* 🧩  **logic**  Used only **iostream** 
 * 🚘 **Player car** with multi-row ASCII graphics
 * 🚙 **Enemy car** with 3-row height
 * 🛣️ **Three-lane road system** with centered borders
