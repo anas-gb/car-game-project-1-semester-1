@@ -1,9 +1,9 @@
 ﻿#include <iostream>
 using namespace std;
-void playgame();
-void start(){
+void playgame(); //main logic declared
+void start(){  //starting menu
  while(true){
-	 system("cls");
+	 system("cls"); //clear
 	 char choice;
 	 cout << "\n\t\t\t ___________________________";
 	 cout << "\n\t\t\t|THE HAPPY CAR DRIVE        |";
@@ -11,7 +11,7 @@ void start(){
 	 cout << "\n\t\t\t|1.Play                     |";
 	 cout << "\n\t\t\t|2.exit                     |";
 	 cout << "\n\t\t\t|___________________________|";
-     cout << "\n\t\t\t choice: ";cin>> choice; 
+     cout << "\n\t\t\t choice: ";cin>> choice; //input choice
 	 if (choice == '1' || choice == 'Y'||choice=='y') {
 		 system("cls");
 		 playgame();
@@ -92,4 +92,5 @@ int main(){
 		break;
     }
 }
+
 
